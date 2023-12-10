@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/addressu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/dolilu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Dolil No"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/taxu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Tax Receipt"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/unew"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Owner (C)"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/oldu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Owner (P)"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/priceu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/statusu"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+</LinearLayout>

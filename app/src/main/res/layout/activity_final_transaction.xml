@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:weightSum="1"
+tools:context=".final_transaction"
+android:background="@color/grey6">
+
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar_final"
+    android:background="@color/blue"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:navigationIcon="@drawable/backspace"
+    tools:ignore="MissingConstraints">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_final"
+        android:layout_gravity="end"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:queryHint="search here"
+        android:background="@color/grey"
+        />
+
+</androidx.appcompat.widget.Toolbar>
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/final_address"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Address"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/final_dolilNo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Dolil No"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/final_taxRcp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Tax No"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/final_cOwner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Owner(C)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/final_pOwner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Owner(P)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/final_price"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="Price"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/property_list_final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal|vertical"
+            />
+    </LinearLayout>
+
+</HorizontalScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="division_options">
+        <item>Select Division</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Barishal</item>
+        <item>Sylhet</item>
+        <item>Chittagong</item>
+        <item>Mymensingh</item>
+    </array>
+</resources>

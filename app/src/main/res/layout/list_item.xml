@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/maddress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/mdolil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Dolil No"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/mtax"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Tax No"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/mcOwner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Owner (C)"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/mpOwner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Owner (P)"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/mprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Price"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+</LinearLayout>

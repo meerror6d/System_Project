@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+    <TextView
+        android:id="@+id/Aaddress"
+        android:layout_width="150dp"
+        android:textColor="@color/black"
+        android:layout_height="70dp"
+        android:text="Address"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Adolil"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Dolil No"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Atax"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Tax No"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/AcOwner"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        android:text="Owner (C)"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ApOwner"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Owner (P)"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Aprice"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Price"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Adiscard"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:background="@color/selectedItemColor"
+        android:textColor="@color/white"
+        android:text="Discard"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/Averify"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:layout_margin="1dp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:text="Verify"
+        android:textSize="14sp"/>
+
+</LinearLayout>

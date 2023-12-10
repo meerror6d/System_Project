@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:weightSum="1"
+tools:context=".Userlist_show"
+android:background="@color/grey">
+
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar_u"
+    android:background="@color/blue"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:navigationIcon="@drawable/backspace"
+    tools:ignore="MissingConstraints">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_u"
+        android:layout_gravity="end"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        app:queryHint="search here"
+        android:background="@color/grey"
+        />
+
+</androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/unique"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:paddingLeft="1dp"
+                android:paddingBottom="10dp"
+                android:text="Username"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/FullName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:paddingLeft="3dp"
+                android:paddingBottom="10dp"
+                android:text="  Name"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/nid_u"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:paddingBottom="10dp"
+                android:text="NID"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/userlist"
+            android:paddingLeft="10dp"
+            android:paddingBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal|vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:layout_marginTop="2.5dp">
+
+    <TextView
+        android:id="@+id/no_block"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="Block no"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/hash_prev"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="Previous Hash"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/hash_cur"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="Current Hash"
+        android:layout_margin="3dp"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/no_prop"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:text="Properties"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp" />
+
+</LinearLayout>

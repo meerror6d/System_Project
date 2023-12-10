@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".Block_show"
+    android:background="@color/grey">
+
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar_block"
+    android:background="@color/blue"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:navigationIcon="@drawable/backspace"
+    tools:ignore="MissingConstraints">
+
+</androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="15dp"
+            android:background="@color/blue"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/address_block"
+                android:layout_width="100dp"
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/cOwner_block"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Owner"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/fee_block"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Fees"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/Block"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Block"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/property_list_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal|vertical"
+            android:padding="5dp"/>
+    </LinearLayout>
+</LinearLayout>

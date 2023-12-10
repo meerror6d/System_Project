@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/prop"
+            android:title="Property"
+            >
+        </item>
+
+        <item
+            android:id="@+id/queue"
+            android:title="Queue">
+        </item>
+
+        <item
+            android:id="@+id/user"
+            android:title="User List">
+        </item>
+        <item
+            android:id="@+id/transaction"
+            android:title="Transaction">
+        </item>
+        <item
+            android:id="@+id/logout_ad"
+            android:title="logout">
+        </item>
+    </group>
+</menu>

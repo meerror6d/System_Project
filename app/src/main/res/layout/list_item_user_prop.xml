@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/laddress"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:text="Address"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/ldolil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Dolil No"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ltax"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Tax No"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lcOwner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Owner(C)"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lpOwner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Owner(P)"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Price"
+        android:textAlignment="center"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/discard"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="✅ | ❌"
+        android:textColor="@color/green"
+        android:paddingRight="1dp"
+        android:paddingLeft="1dp"
+        android:paddingBottom="2dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
